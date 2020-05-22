@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+
+
+body {
+  background: #111;
+  color: rgb(240, 240, 240);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0 }
+
+body, div {
+  cursor: default }
+
+#title {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 40px 20px 20px 20px;
+  text-transform: uppercase;
+  text-align: center }
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center }
+
+.menu-item {
+  color: inherit;
+  text-decoration: none;
+  padding: 10px 20px }
+
+#content {
+  font-size: 20px;
+  line-height: 1.7rem;
+  padding: 5vh 10vw }
+
+#images {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+  width: 100% }
+
+.image {
+  max-height: 80vh;
+  max-width: 100vh;
+  padding-bottom: 5vh }
+
+#videos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+  width: 100% }
+
+.video {
+  padding-bottom: 5vh;
+  width: 720px }
+
+#contacts {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10vh }
+
+.contact-title {}
+
+.contact {
+  color: inherit;
+  font-size: 32px;
+  font-weight: 300;
+  padding: 10px 20px;
+  text-decoration: none }
